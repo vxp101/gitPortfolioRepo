@@ -1,0 +1,108 @@
+#home{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+}
+/* .projects p{
+  width: 200px;
+}
+Will Be added when there are more projects
+*/
+#languages{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.start{
+  text-decoration: underline;
+}
+.group{
+display: flex;
+flex-direction: column;
+font-size: 20px;
+line-height: 20px;
+}
+
+
+.item{
+  font-size: 30px;
+}
+#introp{
+  line-height: 50px;
+}
+#menu{
+  padding: 0;
+  display: flex;
+}
+
+header h1{
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  font-family: 'Gochi Hand';
+}
+
+header{
+
+  background-color: darkblue;
+}
+header nav ul{
+  justify-content: center;
+  list-style: none;
+}
+
+header nav ul li a{
+  font-size: 20px;
+  margin-right: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+header nav ul li:last-child a{
+  margin-right: 0px;
+}
+img{
+  width: 100%;
+}
+form {
+  line-height: 40px;
+  padding: 20px 0 0 0;
+  font-size: 20px;
+}
+@media all and (min-width: 700px){
+  #menu{
+    padding:0;
+    padding-right: 10px;
+    padding-top: 10px;
+
+  }
+  img{
+  width: 300px;
+  }
+  #home{
+    text-align: center;
+    flex-direction: row;
+  }
+  header{
+    display: flex;
+    height:80px;
+    justify-content: space-between;
+  }
+  header h1{
+    padding-top: 5px;
+    font-size: 50px;
+  }
+  header nav{
+    padding-right: 40px;
+  }
+
+  a:hover{
+
+    background-color: grey;
+  }
+}

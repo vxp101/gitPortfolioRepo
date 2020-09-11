@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Portfolio</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+		type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+
+		<h1>Brendon Jennett</h1>
+		<nav>
+			<ul id="menu">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="home">
+		<img src="Photo-Of-Me.jpg" alt="Picture of Brendon Jennett">
+		<div class="item" id="introp">
+			<h2 class="item start" id="intro">
+				Introduction
+			</h2>
+			Hi! Welcome to my page. My name is Brendon and I am a programmer that lives in Pontiac, MI.
+			If you wanna reach me my contact info will be at the bottom.
+		</div>
+	</section>
+	<hr>
+	<section>
+		<h2 class="item start">Projects</h2>
+		<div class="projects">
+			<a class="item" href="https://github.com/vxp101/First-Portfolio">My First Portfolio</a>
+			<p class="item">This is my original Portfolio. I used Visual Studio Code to make this. </p>
+		</div>
+
+	</section>
+	<hr>
+	<section id="about">
+		<h2 class="item start">About Me</h2>
+
+		<div class="item">
+			A little about me, I enjoy programming, the ability to create tools that can be used in life is beathtaking
+			and having the ability to contribute to such a system gives me great excitement. Having the chance to
+			brainstorm and contribute to the future is why it's my passion to program. I have found I am very versatile
+			in working by myself or in a group, though I do love working with other people. Being able to see passion of
+			what I love to do in others really makes me feel like I have chose a career that has a purpose. Programming
+			isn't all my life though I also enjoy nature walks and kayaking.
+		</div>
+		<hr>
+
+		<div class="item" id="services">
+			<h2 class="item start">Services</h2>
+			<p class="start">I can provide servies in the following:</p>
+			<p>Full-Stack Development - Creating Apps - Web Design</p>
+		</div>
+	</section>
+	<hr>
+	<section id="contact">
+		<div class="group">
+			<p>Git: <a href="https://github.com/vxp101">https://github.com/vxp101</a></p>
+			<hr>
+			<p>Email: <a href="mailto:vxp101@gmail.com">vxp101@gmail.com</a></p>
+			<hr>
+			<p>Linkedin: <a
+					href="https://www.linkedin.com/in/brendon-jennett-66617a1b2/">https://www.linkedin.com/in/brendon-jennett-66617a1b2/</a>
+			</p>
+		</div>
+		<h2 class="item start">
+			Send In A Ticket
+		</h2>
+		<form action="https://formspree.io/vxp101@gmail.com" method="post">
+			<div>
+				<label for="full-name">Name: </label>
+				<input id="full-name" name="personName" type="text" placeholder="Required" required>
+			</div>
+			<div>
+				<label for="email">Email: </label>
+				<input id="email" name="personEmail" type="text" placeholder="Required" required>
+			</div>
+			<label for="form-message">Additional: </label>
+			<textarea id="form-message" name="anything" placeholder="Not Required"></textarea>
+			<div>
+				<button type="submit" name="Submit">Submit</button>
+				<button type="reset" name="reset">Reset</button>
+			</div>
+
+		</form>
+	</section>
+
+</body>
+
+</html>
